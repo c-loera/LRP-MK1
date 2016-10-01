@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Leo Rivera Photography</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+<div id="overlay">
+	<div class="spinner"></div>
+</div>
+<script type="text/javascript">
+var overlay = document.getElementById("overlay");
+
+window.addEventListener('load', function(){
+	overlay.style.display = 'none';
+})
+</script>
+	<a name="home">
+<!--Start Navigation-->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--For Navigation-->
+		<div class="nav-outer">
+			<div class="nav-wrap">
+				<nav class="navigation">
+					<div class="logo"><img src="img/logo.png"></div>
+					<div class='nav' nav-menu-style="yoga">
+						<ul class="nav-menu">
+							<!--Change these to the desired links later on!!!!-->
+							<li><a href="#home">Home</a></li>
+						<!--	<li><a href="#about">About</a></li>-->
+						<!--	<li><a href="#contact">Contact</a></li>-->
+							<li><a href="#services">Services</a></li>
+							<li><a href="#partners">Partners</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+<!--ADD NAVIGATION HERE-->
+	<div class="nav-clear"></div>
+
+<!--- End Navigation --->
+	<div class="clearfix"></div>
+
+<!--Start Slider-->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+		<section class="slider">
+			<ul class="slider1">
+				<!--Images//Sliders-->
+				<li><img src="images/PoL.jpg"></li>
+				<li><img src="images/elibeth.jpg"></li>
+				<li><img src="images/frank1.jpg"></li>
+			</ul>
+		</section>
+
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--End Slider-->
+<a name="about">
+<!--Start Banner Wrapper-->
+	<div id="banner-wrapper">
+		<br>
+		<h1 id="opener">Leo Rivera Photography</h1>
+	</div>
+<!--End Banner Wrapper-->
+<div class="clearfix"></div>
+<a name="contact">
+<!--Start of Parallax Section-->
+	<section class="parallax-1">
+		<div class="parallax-inner">
+			<section class="one-third">
+				<h3>Contact</h3>
+				<p>LFILLL</p>
+			</section>
+			<section class="one-third">
+				<h3>Heading Title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section><section class="one-third">
+				<h3>Heading Title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+		</div>
+	</section>
+<!--End of Parallax Section-->
+<div class="clearfix"></div>
+<a name="services">
+<!--Start of Banner Wrapper-->
+	<section class="left-col">
+		<h1>Services</h1>
+		<p>Package 1 $150 <br>
+			Individual Photography session one hour shoot, 2 looks max, 2 photo edited shots, JPG and on DVD</p>
+		<p>Family shot $300 <br>
+			Group/family Photography Sessions two Hour shoot,  3 photo edited shots 2 Looks Max for everyone in group,  JPG and DVD</p>
+		<p>Family Slide show $250 <br>
+			Family Photography Slideshow One Hour shoot, 3 photo edited shots, 2 looks max, JPG and DVD, {Photographer will come to the location you wish and follow you and your family around capturing your family most treasured moments}</p>
+		<p>Art Photography $200-$700 <br>
+			photoshoot for ART Photoshop Art pieces</p>
+	</section>
+	<section class="sidebar">
+		<img src="images/frank2.jpg">
+	</section>
+<!--End of Banner Wrapper-->
+<div class="clearfix"></div>
+<!--Start Of Parallax Section-->
+<section class="parallax-2">
+	<div class="parallax-inner">
+		<section class="one-third">
+			<h3>Heading Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+		<section class="one-third">
+			<h3>Heading Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section><section class="one-third">
+			<h3>Heading Title</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+	</div>
+</section>
+<!--End of Parallax Section-->
+<div class="clearfix"></div>
+<a name="partners">
+<!--Start of Banner Wrapper-->
+	<div id="banner-wrapper">
+		<br>
+		<h1>Partners</h1>
+		<section class="one-third">
+			<img src="images/dani.jpg">
+			<br>
+			<h3>Dani New York</h3>
+			<br>
+			<p>"Dani New York is a full service alterations workroom, located in the heart of Manhattan's garment district. With over 15 years of experience, Dani New York prides itself in individualized customer care."</p>
+		</section>
+		<section class="one-third">
+			<img src="images/wwt.png">
+			<br>
+			<h3>Who Wore That Magazine</h3>
+			<br>
+			<p>"Who Wore That is a new and exciting online fashion magazine with quarterly print issues with a focus on real women and the style that drive them. Who Wore That features daily street style image galleries and profiles of stylish models and fashionistas from all across the NYC metro area!"</p>
+		</section><section class="one-third">
+			<img src="images/avol.jpg">
+			<h3>Avolinad</h3>
+			<br>
+			<p>"Fine couture, craftsmanship and exquisite style. Explore their upcoming collection that blends functionality in an effortless combination of all the right details in modern proportions."</p>
+		</section>
+	</div>
+	<a name="sponsors">
+<!--End of Banner Wrapper-->
+<div class="clearfix"></div>
+<!--Just the Footer-->
+<footer>
+	<h4>&copy; Leo Rivera Photography</h4>
+	<h4>Phone: +1 (347)447-9513</h4>
+	<h4>E-mail: info@leoriveraphotography.com</h4>
+</footer>
+
+</body>
+</html>
